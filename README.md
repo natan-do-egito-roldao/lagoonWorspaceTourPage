@@ -1,21 +1,91 @@
-# lagoonWorspaceTourPage
-Lagoon Workspace - Tour Inicial Onboarding
+Lagoon Workspace — Onboarding Interativo (Tour Inicial)
 
-Página web interativa de onboarding que funciona como intermediária de acesso ao Lagoon Workspace. O usuário só ganha acesso ao aplicativo após assistir completamente a um vídeo de apresentação.
+Interface web totalmente interativa desenvolvida como etapa obrigatória de onboarding para novos usuários do Lagoon Workspace.
+O acesso ao aplicativo só é liberado após a conclusão completa do vídeo de apresentação, garantindo uma experiência inicial orientada e consistente.
 
-Funcionalidades
-Reprodução de Vídeo: Player HTML5 com overlay visual para iniciar
-Barra de Progresso: Exibe o percentual de conclusão do vídeo em tempo real
-Navegação no Vídeo: Clique na barra de progresso para pular para qualquer momento
-Botão Condicional: "Prosseguir para o app" fica visível apenas quando o vídeo termina
-Armazenamento Local: Salva o status de conclusão via localStorage (sessões futuras reconhecem o tour como completo)
-Notificações Toast: Feedback visual discreto ao concluir o onboarding
-Design Responsivo: Interface adaptável a diferentes tamanhos de tela com variáveis CSS clamp()
-Acessibilidade: Atributos ARIA para barra de progresso
-Tecnologia
-HTML5 semântico
-CSS3 (gradientes, Grid, backdrop-filter, variáveis customizadas)
-JavaScript vanilla (IIFE, Event Listeners, localStorage)
-Estrutura
-Paleta de Cores
-Tons verdes (sustentabilidade), brancos e fundo escuro com efeitos gradiente sutil.
+🚀 Funcionalidades Principais
+🎬 Reprodução de Vídeo
+
+Player HTML5 customizado
+
+Overlay de Play estilizado para iniciar o vídeo
+
+Comportamento otimizado para navegadores com restrições de autoplay
+
+📊 Barra de Progresso Dinâmica
+
+Atualização em tempo real conforme o vídeo avança
+
+Percentual exibido numericamente
+
+Totalmente responsiva e acessível (role="progressbar" + ARIA)
+
+⏩ Navegação por Clique
+
+Usuário pode clicar na barra de progresso para avançar ou retroceder no vídeo
+
+Cálculo preciso baseado na posição do clique (percentual → tempo exato)
+
+🔓 Acesso Condicional ao App
+
+Botão "Prosseguir para o app" permanece oculto
+
+Só é exibido quando o vídeo é concluído (ended)
+
+Estilizado conforme a paleta visual do projeto
+
+💾 Persistência via LocalStorage
+
+Armazena se o tour foi finalizado
+
+Usuários que já concluíram o vídeo não precisam repetir o onboarding
+
+🔔 Notificações Toast
+
+Mensagens sutis e não intrusivas
+
+Usadas para confirmar ações, progresso e conclusão do tour
+
+📱 Design Responsivo e Acessível
+
+Layout adaptável a diferentes telas (desktop/mobile)
+
+Uso de clamp() para tipografia fluida
+
+Paleta em tons verdes + fundo escuro, reforçando identidade sustentável
+
+Efeitos visuais modernos: gradientes, blur, sombras profundas
+
+🛠️ Tecnologias Utilizadas
+
+HTML5 Semântico
+
+Estrutura limpa e acessível
+
+Componentes organizados por propósito
+
+CSS3 Moderno
+
+Variáveis personalizadas (--var)
+
+Grid, radiais, transparências, backdrop-filter
+
+Dark theme com estética premium e bordas suaves
+
+Totalmente modular e escalável
+
+JavaScript Vanilla
+
+IIFE para isolamento de escopo
+
+Event listeners organizados
+
+Manipulação de vídeo, barra de progresso e UI
+
+Persistência com localStorage
+
+Código limpo, direto e sem dependências externas
+
+🎯 Objetivo do Projeto
+
+Entregar uma experiência de onboarding envolvente, controlada e coerente com o ecossistema do Lagoon Workspace, garantindo que o usuário tenha uma visão clara do produto antes de acessá-lo.
