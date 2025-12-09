@@ -4,6 +4,7 @@ Interface web totalmente interativa desenvolvida como etapa obrigatória de onbo
 O acesso ao aplicativo só é liberado após a conclusão completa do vídeo de apresentação, garantindo uma experiência inicial orientada e consistente.
 
 🚀 Funcionalidades Principais
+
 🎬 Reprodução de Vídeo
 
 Player HTML5 customizado
